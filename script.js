@@ -29,6 +29,6 @@ temperature < 70
   : console.log("Wear something light!");
 
 //Is the person elligible for a free snack?
-age >= 18
-  ? console.log("No snack for you!") && hasTicket === true
-  : console.log("You get a free snack!");
+age >= 18 && hasTicket === true
+  ? console.log("You get a free snack!")
+  : console.log("No snack for you!");
